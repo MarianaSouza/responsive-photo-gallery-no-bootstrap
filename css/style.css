@@ -1,9 +1,8 @@
-
-body{
+body {
 	font-family: 'Raleway', sans-serif;
 }
 
-h1{
+h1 {
 	margin-left: 1.66%;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -14,29 +13,35 @@ h1{
 	color: #212121;
 }
 
-img{
+h1 a{
+	text-decoration: none;
+	color: #212121;
+}
+
+img {
 	width: 30%;
 	float: left;
 	margin: 1.66%;
 }
 
-.image-gallery{
+.image-gallery {
+
 	/* Applying width: auto and overflow:hidden to be able to add margin-bottom to the floated images; */
-	width: auto; 
+	width: auto;
 	overflow: hidden;
 	margin-bottom: 50px;
 }
 
-footer p{
+footer p {
 	text-align: center;
 	padding: 10px;
 	color: #2e2e2e;
 }
 
-footer p a{
- color: #2e2e2e;
+footer p a {
+	color: #2e2e2e;
 }
 
-footer p a:hover{
+footer p a:hover, h1 a:hover {
 	color: #888;
 }
