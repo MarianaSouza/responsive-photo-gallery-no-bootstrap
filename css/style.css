@@ -2,6 +2,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+a:focus{
+	outline: none;
+}
+
 h1 {
 	margin-left: 1.66%;
 	font-weight: 800;
